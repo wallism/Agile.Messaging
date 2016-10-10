@@ -11,7 +11,7 @@ namespace Agile.MessageHub.Cmd
     {
         static void Main(string[] args)
         {
-            var setting = ConfigurationManager.AppSettings["Setting1"];
+            var setting = ConfigurationManager.AppSettings["Setting2"];
             System.Console.WriteLine(setting);
 
             var conn = ConfigurationManager.ConnectionStrings["Logging"];
